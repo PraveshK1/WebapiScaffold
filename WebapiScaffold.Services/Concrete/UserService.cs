@@ -13,7 +13,7 @@ namespace WebapiScaffold.Services.Concrete
             _repository = repository;
         }
 
-        public async  Task<UserDTO?> GetUserByIdAsync(string id)
+        public async Task<UserDTO?> GetUserByIdAsync(string id)
         {
             var user = await _repository.GetByIdAsync(id);
             return user != null ? new UserDTO 
