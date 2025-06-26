@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebapiScaffold.Data\WebapiScaffold.Data.csproj" />
+    <ProjectReference Include="..\WebapiScaffold.Extensions\WebapiScaffold.Extensions.csproj" />
     <ProjectReference Include="..\WebapiScaffold.Repositories\WebapiScaffold.Repositories.csproj" />
     <ProjectReference Include="..\WebapiScaffold.Services\WebapiScaffold.Services.csproj" />
   </ItemGroup>
